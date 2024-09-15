@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.header-text {
+    max-width: 600px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.signature {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.entry {
+    margin-bottom: 15px;
+}
+
+.entry h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.entry ul {
+    list-style-type: disc;
+    margin: 5px 0 0 20px;
+}
+
+.skills ul {
+    list-style-type: square;
+    margin: 5px 0 0 20px;
+}
